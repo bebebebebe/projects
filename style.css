@@ -20,6 +20,14 @@ body {
   font-size: 28px;
 }
 
+#picture {
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+
+}
+
 
 #projects-list {
   position: relative;
@@ -57,5 +65,11 @@ a:hover {
   font-weight: bold;
 }
 
+
+.eg {
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+}
 
 
