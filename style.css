@@ -1,0 +1,61 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #939393;
+  font-family: Garamond;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%
+}
+
+
+
+#heading {
+  color: black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
+}
+
+
+#projects-list {
+  position: relative;
+  left: 45%;
+  width: 60%;
+}
+
+.project-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #71637D; 
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.project-description {
+  padding-bottom: 20px;
+}
+
+
+
+.project-links {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-bottom: 20px;
+}
+
+.project-links a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #71637D;
+}
+
+a:hover {
+  color: #4F2F4F;
+  font-weight: bold;
+}
+
+
+
