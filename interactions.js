@@ -31,5 +31,16 @@ $(document).ready(function() {
     }
   });
 
+    $('#memory').on({
+    mouseenter: function () {
+     $('#picture').html("<img src='pictures/memory.png'/>");
+//     $(this).children('.project-description').css('background', 'rgba(255,255,255,0.5)');
+    },
+    mouseleave: function () {
+      $('#picture').html("<p>An overview of my programming projects with links to demos/deployed apps.</p><p><a href='https://github.com/bebebebebe'>GitHub profile</a></p>");
+      $(this).children('.project-description').css('background', '');
+    }
+  });
+
 
 });
