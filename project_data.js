@@ -30,7 +30,7 @@ $(document).ready(function(){
       
        {
         title: 'Writing Versions',
-        description: "Ruby on Rails app for versioned modular writing, modeling stacks of index cards. When composing text on a 'card,'' you can click a 'keep version' button and continue revising. All versions are kept in a 'stack,'' with the text from each top card contributing to your document. You can change your mind about which card to select on top of a stack in a view displaying word based diffs.",
+        description: "Ruby on Rails app for versioned modular writing, modeling stacks of index cards. When composing text on a 'card,' you can click a 'keep version' button and continue revising. All versions are kept in a 'stack,'' with the text from each top card contributing to your document. You can change your mind about which card to select on top of a stack in a view displaying word based diffs.",
         code: 'https://github.com/bebebebebe/palefire',
       },
       {
