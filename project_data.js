@@ -7,7 +7,7 @@ $(document).ready(function(){
         title: "Visual Schemer", 
         description: "In-browser version of SchemerB (below), with semantic visualizations. As you enter Scheme expressions in the REPL via the in-browser console, tree pictures are drawn showing the environment structure. Hovering over a node in the tree reveals the bindings present at that node. This is a Sinatra app; visualizations are made with D3.js.",
         demo: 'http://visual-schemer.herokuapp.com/',
-        code: 'https://github.com/bebebebebe/visual-schemer',
+        code: 'https://github.com/bebebebebe/scheme.rb',
         picture: 'pictures/schemetree.jpg' },
       {
         title:"SchemerB",
