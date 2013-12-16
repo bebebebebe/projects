@@ -10,9 +10,7 @@
    </head>
    <body>
 
-
-  <div id='heading'>Projects</div>
-
+    <div id='heading'>Projects</div>
 
     <div id='subheading'>
       <p>
@@ -23,37 +21,30 @@
       </p>
     </div>
 
+    <ul id='projects-list'>
 
+    <script id="projects-template" type="x-handlebars-template">
+      {{#each this}}
+        <li class="project"> 
 
-
-  <ul id='projects-list'>
-
-  <script id="projects-template" type="x-handlebars-template">
-    {{#each this}}
-      <li class="project"> 
-
-        {{#if picture}}
-          <img class='image' src="{{picture}}" />
-        {{/if}}
-
-        <div class='project-title'>{{ title }}</div>
-        <div class='project-description'> {{ description }}</div>
-        <div class='project-links'>
-          {{#if demo}}
-            <a href="{{demo}}">Demo</a> |
+          {{#if picture}}
+            <img class='image' src="{{picture}}" />
           {{/if}}
-          <a href="{{code}}">Code</a>
-        </div>
-      </li>
 
-    {{/each}}
-  </script>
+          <div class='project-title'>{{ title }}</div>
+          <div class='project-description'> {{ description }}</div>
+          <div class='project-links'>
+            {{#if demo}}
+              <a href="{{demo}}">Demo</a> |
+            {{/if}}
+            <a href="{{code}}">Code</a>
+          </div>
+        </li>
 
-  </ul>
+      {{/each}}
+    </script>
 
-
-
-
+    </ul>
 
    </body>
 </html>
