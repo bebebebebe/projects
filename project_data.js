@@ -5,7 +5,7 @@ $(document).ready(function(){
     var projectsData = [
       {
         title: "Wikimedia Parsoid: Open Source Contributions",
-        description: 'I\'m currently doing a Gnome Foundation OPW internship for open source projects. I\'m working with Wikimedia\'s Parsoid team. Parsoid translates back and forth between wikitext and HTML. Its main use at the moment is in Wikimedia\'s Visual Editor, which gives people who aren\'t familiar with HTML or wikitext a user friendly interface for editing Wikipedia pages. My project involves Parsoid\'s extensive testing framework: I\'m working on both front end and back end improvements so the development team can better interact with the testing results. I\'m using Node.js, MySQL, JavaScript, JQuery, HTML, CSS and Handlebars templating.',
+        description: 'I\'m currently doing a Gnome Foundation OPW internship for open source projects. I\'m working with Wikimedia\'s Parsoid team. Parsoid translates back and forth between wikitext and HTML, and its distributed test setup translates around 160,000 Wikipedia articles from wikitext to HTML, back to wikitext, and then computes diffs to compare each result with the original wikitext that generated it. I\'m working on the web interface for this testing framework, making both front end and back end improvements so the development team can better interact with the testing results. I\'m using Node.js, MySQL, JavaScript, JQuery, HTML, CSS and Handlebars templating.',
         code: 'https://github.com/wikimedia/mediawiki-services-parsoid/commits?author=bebebebebe'},
       {
         title: "Visual Schemer", 
